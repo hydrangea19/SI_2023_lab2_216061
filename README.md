@@ -2,7 +2,8 @@
 
 # Control Flow Graph
 
-![CFG drawio](https://github.com/hydrangea19/SI_2023_lab2_216061/assets/130029553/29c5116b-48aa-4582-b3b3-39b0e1fc7654)
+![CFG drawio](https://github.com/hydrangea19/SI_2023_lab2_216061/assets/130029553/a5d64982-4b26-4f09-b7c5-4550b4e00e11)
+
 
 # Цикломатска комплексност
 

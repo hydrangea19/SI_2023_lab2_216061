@@ -14,7 +14,8 @@
 
 # Tест случаи според Every Branch критериумот
 
-![Screenshot (207)](https://github.com/hydrangea19/SI_2023_lab2_216061/assets/130029553/15d7f622-71e0-4898-964a-f7e70019d761)
+![Screenshot (207)](https://github.com/hydrangea19/SI_2023_lab2_216061/assets/130029553/80e089c0-9c37-4ea7-8e65-09954ba41f8d)
+
 
 1. Првиот тест случај е <code> user = null </code>. Со овој тест случај првиот услов ќе се исполнува, и се очекува програмата да фрла исклучок.</li>
 2. Вториот тест случај е <code>username = null, email = user@gmail.com, password = asdfg </code>. Со овој тест случај првиот услов нема да се исполнува, па потоа ќе го провериме вториот, вториот услов ќе се исполнува и вредонста на username ќе се постави на вредонстата на е-мејлот<code> username = user@gmail.com </code>. Понатаму се провери дали е-мајлот е валиден, и во овој случај е валиден, па продолжуваме понатаму. Кога ќе стигнеме во условот што проверува дали лозинката е помалку од 8 карактери, тој услов ќе се исполнува и функцијата ќе врати вредност <code> False </code>. До овде ќе застанеме со овој тест случај. Текот на програмата низ графот, за овој тест случај, може да го гледате во горенаведениот spreadsheet. 
@@ -26,7 +27,8 @@
 
 # Tест случаи според Multiple Condition критериумот
 
-![Screenshot (209)](https://github.com/hydrangea19/SI_2023_lab2_216061/assets/130029553/8784a94d-9fe8-4800-bf47-060c54ec30f5)
+![Screenshot (209)](https://github.com/hydrangea19/SI_2023_lab2_216061/assets/130029553/66458136-9ebf-4326-86ce-b81259bb1cf8)
+
 
 1. Првиот тест случај нека е <code>user = null, username = diellza, email = diellza@gmail, password = asdfghjkl*</code>. Со овој тест случај ќе се провери прво <code> user == null </code> условот, и овој ќе врати вредност <code>True</code>. Другите два услови нема да се проверуват. 
 2. Вториот тест случај нека е <code> user = diellza, username = diellza, email = diellza@gmail.com, password = null </code>. Со овој тест случај првиот услов нема да се исполни, па ќе се проверува вториот услов <code> user.getPassword() == null </code>. Овој услов ќе се провери и ќе се врати вредност <code> True </code>. Третиот услов нема да се провери.
